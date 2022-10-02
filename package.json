@@ -1,7 +1,9 @@
 {
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage":"jest --coverage",
+    "coverage_report":"jest --coverage --coverageDirectory=output/coverage/jest.report",
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
